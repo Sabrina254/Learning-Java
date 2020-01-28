@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/photo"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/animation" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Big Square!"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/text0ne"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/photo"
+        android:layout_marginBottom="24dp"
+        android:paddingLeft="24dp"
+        android:paddingTop="24dp"
+        android:text="Directions and Contact"
+        android:textSize="24sp" />
+
+    <ImageView
+        android:id="@+id/imageone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text0ne"
+        android:layout_marginBottom="24dp"
+        android:paddingLeft="24dp"
+        android:src="@drawable/location" />
+
+    <ImageView
+        android:id="@+id/imagetwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageone"
+        android:paddingLeft="24dp"
+        android:src="@drawable/contact" />
+
+
+    <TextView
+        android:id="@+id/location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text0ne"
+        android:layout_toEndOf="@id/imagetwo"
+        android:paddingLeft="24dp"
+        android:text="CBD -MOI AVENUE" />
+
+    <TextView
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/location"
+        android:layout_marginTop="24dp"
+        android:layout_toEndOf="@id/imagetwo"
+        android:paddingLeft="24dp"
+        android:text="info@big-Square.co.ke" />
+
+    <TextView
+        android:id="@+id/contact_two"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contact"
+        android:layout_marginTop="16dp"
+        android:paddingLeft="75dp"
+        android:text="info@big-Square.co.ke" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imagetwo"
+        android:layout_marginTop="48dp"
+        android:paddingLeft="24dp"
+        android:text="Reviews"
+        android:textSize="24sp" />
+</RelativeLayout>
+
+
+
+
