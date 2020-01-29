@@ -75,6 +75,7 @@
         android:paddingLeft="75dp"
         android:text="info@big-Square.co.ke" />
 
+
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
